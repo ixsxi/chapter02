@@ -37,7 +37,24 @@ public class Song {
 	}
 	
 	//************게터*************** //게터는 필요한가 .. ?
-	
+	public String getTitle(){
+		return title;
+	}
+	public String getArtist() {
+		return artist;
+	}
+	public String getAlbum() {
+		return album;
+	}
+	public String getComposer() {
+		return composer;
+	}
+	public int getYear() {
+		return year;
+	}
+	public String getTrack() {
+		return track;
+	}
 	
 	public void showInfo(){
 		System.out.println(artist+ "," +title+ "(" +album+ "," +year+ "," +track + " track," + composer+"작곡"+")");
