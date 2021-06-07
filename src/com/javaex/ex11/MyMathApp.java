@@ -20,6 +20,10 @@ public class MyMathApp {
 		
 		System.out.println(MyMath.plus(99, 99));
 		System.out.println(MyMath.plus(10.1, 12.4));
+		
+		
+		
+		System.out.println(MyMath.cirleArea(5));
 	}
 
 }

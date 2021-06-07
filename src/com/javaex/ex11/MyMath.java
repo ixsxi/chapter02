@@ -5,7 +5,7 @@ public class MyMath {
 	
 	
 	//필드
-	
+	private static double pi = 3.14;
 	
 	
 	
@@ -43,6 +43,11 @@ public class MyMath {
 	
 	public static double plus(int a, double b) {
 		double result =a + b;
+		return result;
+	}
+	
+	public static double cirleArea(int radius) {
+		double result = radius*radius * pi;
 		return result;
 	}
 }
