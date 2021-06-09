@@ -3,8 +3,8 @@ package com.javaex.ex17;
 public class Triangle extends Shape {
 	//필드
 	
-	int width;
-	int height;
+	private int width;
+	private int height;
 	
 	
 	//생성자
